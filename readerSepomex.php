@@ -294,8 +294,8 @@ class Sepomex {
 }
 
 $sepomex = new Sepomex();
-//$sepomex->createCountries();
-//$sepomex->createStates();
-//$sepomex->createCities();
-//$sepomex->createMunicipalities();
+$sepomex->createCountries();
+$sepomex->createStates();
+$sepomex->createCities();
+$sepomex->createMunicipalities();
 $sepomex->createColonies();
