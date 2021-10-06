@@ -1,11 +1,18 @@
 <?php
 defined("ACCESS_SUCCESS") or header("location: ../error-403");
 class DataBase{
-
+    /*
+        REPLACE THE CONSTANTS: 
+            DB_HOST = 127.0.0.1 
+            DB_USER = YOUR_USER_NAME
+            DB_PASSWORD = YOUR_PASSWORD
+            DB_NAME = YOUR_DATABASE 
+        FOR YOUR REAL VALUES
+    */
     private string $host = "DB_HOST";
     private string $user = "DB_USER";
     private string $password = "DB_PASSWORD";
-    private string $database = "DB";
+    private string $database = "DB_NAME";
     private $link = null;
     static $_instance = null;
 
